@@ -1,0 +1,99 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.m-xs {
+  margin: 10px;
+}
+
+.m-sm {
+  margin: 24px;
+}
+.m-md {
+  margin: 34px;
+}
+.m-lg {
+  margin: 54px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mt-24 {
+  margin-top: 24px;
+}
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mb-24 {
+  margin-bottom: 24px;
+}
+.p-xs {
+  padding: 10px;
+}
+
+.p-sm {
+  padding: 24px;
+}
+.p-md {
+  padding: 34px;
+}
+.p-lg {
+  padding: 54px;
+}
+
+.pt-10 {
+  padding-top: 10px;
+}
+.pb-10 {
+  padding-bottom: 10px;
+}
+
+.position-center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.box {
+  width: 500px;
+  height: 500px;
+}
+
+.box-circle {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+}
+
+.full-viewport {
+  width: 100vw;
+  height: 100vh;
+}
+
+.width-height-full {
+  height: 100%;
+  width: 100%;
+}
+
+.width-half {
+  width: 50%;
+}
+
+.half-viewport {
+  width: 50vw;
+  height: 50vh;
+}

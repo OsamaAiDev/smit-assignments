@@ -1,0 +1,81 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+}
+
+input,
+textarea {
+  width: 100%;
+  display: block;
+  padding: 12px 20px;
+  border-radius: 2px;
+  margin-bottom: 20px;
+  border: 1px solid orangered;
+  font-size: 16px;
+}
+
+.form-title {
+  margin-bottom: 20px;
+}
+
+input[type="submit"] {
+  outline: none;
+  background-color: orangered;
+  color: white;
+  cursor: pointer;
+}
+
+.product-items {
+  display: flex;
+  padding: 80px 40px;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.product-item {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  text-align: center;
+}
+.product-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.product-item h3 {
+  margin: 10px 0;
+}
+.product-item p {
+  font-size: 14px;
+  color: #555;
+}
+.product-item a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 15px 20px;
+  background: orangered;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.product-item a:hover {
+  background: rgba(255, 68, 0, 0.71);
+}
